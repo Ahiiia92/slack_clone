@@ -1,1 +1,54 @@
 // Specific CSS for your home-page
+.author-name {
+  font-weight: bold;
+}
+
+.date {
+  font-size: small;
+}
+
+#message_content {
+  border-radius: 6px;
+  margin-top: 2rem;
+}
+
+.message-container-current {
+  background-color: #D1D2F9;
+  margin-top: 1rem;
+  margin-bottom: 1.2rem;
+  border-radius: 6px;
+  padding-left: 1rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  margin-right: 20rem;
+}
+
+.message-container-other {
+  background-color: #A3BCF9;
+  margin-top: 1rem;
+  margin-bottom: 1.2rem;
+  border-radius: 6px;
+  padding-left: 1rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  margin-left: 20rem;
+}
+
+.message-container-true {
+  background-color: #A3BCF9;
+  border-radius: 6px;
+  padding: 0.5rem 1rem;
+  margin-right: 10rem;
+}
+
+h1 {
+  padding-top: 2rem;
+  color: #576490;
+}
+
+.message-container-false {
+  margin-left: 10rem;
+  background-color: #C9CAD9;
+  border-radius: 6px;
+  padding: 0.5rem 1rem;
+}
