@@ -1,6 +1,15 @@
-<h1>Pages#home</h1>
+<h1>Chatrooms</h1>
 <p>Find me in app/views/pages/home.html.erb</p>
 
-<% @chatrooms.each do |chatroom| %>
-  <%= link_to chatroom.name, chatroom_path(chatroom) %>
-<% end %>
+<ul>
+  <% @chatrooms.each do |chatroom| %>
+    <%= link_to chatroom_path(chatroom) do %>
+      <li>
+        <div class="card-chatroom">
+          <h3><%= chatroom.name %></h3>
+        </div>
+      </li>
+    <% end %>
+  <% end %>
+</ul>
+
