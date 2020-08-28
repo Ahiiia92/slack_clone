@@ -20,7 +20,7 @@
   padding-left: 1rem;
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
-  margin-right: 20rem;
+  margin-left: 20rem;
 }
 
 .message-container-other {
@@ -31,7 +31,7 @@
   padding-left: 1rem;
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
-  margin-left: 20rem;
+  margin-right: 20rem;
 }
 
 .message-container-true {
@@ -51,4 +51,31 @@ h1 {
   background-color: #C9CAD9;
   border-radius: 6px;
   padding: 0.5rem 1rem;
+}
+
+ul {
+  list-style: none;
+  padding: 0 !important;
+}
+
+a,
+a:hover {
+  color: black;
+  text-decoration: none;
+}
+
+form {
+  width: 100%;
+  justify-content: right;
+  align-items: center;
+  display: flex;
+}
+
+#message_content {
+  margin-top: 0;
+}
+
+.form-group {
+  margin-bottom: 0;
+  width: 100%;
 }
