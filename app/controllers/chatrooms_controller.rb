@@ -32,7 +32,7 @@ class ChatroomsController < ApplicationController
 
   private
 
-  def messsage_params
+  def message_params
     params.require(:message).permit(:content)
   end
 
